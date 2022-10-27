@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 nav{
     display: flex;
@@ -13,11 +15,9 @@ nav ol li{
 nav .text ol{
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
 }
 nav .samsung{
     margin-top: 44px;
@@ -37,17 +37,13 @@ header{
 header h1{
     position: absolute;
     left: 157px;
-top: 463px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 70px;
-line-height: 105px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-text-align: center;
+    top: 463px;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
 color: #000000;
 }
@@ -77,50 +73,38 @@ header .arrow{
     position: relative;
 }
 .two .left p{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 36px;
-/* or 120% */
-
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-width: 298px;
-height: 72px;
-margin: 34px 0 0 42px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 298px;
+    height: 72px;
+    margin: 34px 0 0 42px;
 }
 .two .right p{
     width: 309px;
-height: 72px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 36px;
-position: absolute;
-display: flex;
-align-items: center;
-text-align: right;
-color: #FFFFFF;
-top: 34px;
-right: 30px;
+    height: 72px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    top: 34px;
+    right: 30px;
 }
 .the{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 48px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #000000;
-margin: 30px 40px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin: 30px 40px;
 }
 .card-section{
     display: flex;
@@ -134,30 +118,24 @@ margin: 30px 40px;
     
 }
 .card-section .top p{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 23px;
-line-height: 34px;
-color: #000000;
-
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    color: #000000;
 }
 .card-section .card{
     width: 25%;
     text-align: center;
-
-    font-family: 'Poppins';
-font-style: normal;
     font-weight: 600;
-font-size: 23px;
-line-height: 34px;
-display: flex;
-align-items: center;
-text-align: center;
-flex-direction: column;
-justify-content: space-between;
-color: #000000;
-padding-bottom: 75px;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000000;
+    padding-bottom: 75px;
 
 }
 .card-section .card img{
@@ -179,15 +157,11 @@ footer{
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 footer .above span{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #999999;
-margin-right: 37px;
-
-
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+    margin-right: 37px;
 }
 footer .above{
     margin: 44px 0 0 30px;
@@ -199,7 +173,6 @@ footer .above{
 footer i{
     margin-right: 31px;
 }
-
 footer .bottom{
     display: flex;
     margin-bottom: 31px;
@@ -210,12 +183,10 @@ footer .bottom .down{
     margin-top: 8px;
 } 
 footer .bottom .right{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-color: #666666;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
 }
 footer .bottom .right{
     margin-left: 35px;
